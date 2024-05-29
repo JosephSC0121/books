@@ -1,0 +1,8 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+import Books from "@/components/react/libros"
+---
+
+<PageLayout meta={{ title: "Home" }}>
+    <Books client:load/>
+</PageLayout>

@@ -1,0 +1,8 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+import Author from "@/components/react/autores"
+---
+
+<PageLayout meta={{ title: "Home" }}>
+    <Author client:load/>
+</PageLayout>
